@@ -1,0 +1,30 @@
+{
+  "name": "av-cpa-api",
+  "version": "1.0.0",
+  "description": "CPA Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Pauline F. Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcryptjs": "^2.4.3",
+    "csvtojson": "^1.1.9",
+    "dotenv": "^4.0.0",
+    "foobar": "^1.1.0",
+    "generate-password": "^1.4.0",
+    "jsonwebtoken": "^7.4.3",
+    "lodash": "^4.17.5",
+    "moment-timezone": "^0.5.14",
+    "mongoose": "^4.13.12",
+    "node": "9.4.0",
+    "nodemon": "^1.14.11",
+    "restify": "^4.3.2",
+    "sendgrid": "^5.2.3",
+    "shuffle-array": "^1.0.1",
+    "stripe": "^5.8.0"
+  }
+}
